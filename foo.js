@@ -5,7 +5,7 @@ class Foo {
   }
 }
 
-func1() {
+function func1() {
   f = new Foo('foo', 'bar');
   console.log(f.f);
   console.log(f.b);
